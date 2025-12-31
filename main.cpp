@@ -223,7 +223,7 @@ public:
 
 
 
-int main() {
+/*int main() {
 
     Low_Orbital_Earth_Value Test1;
     Test1.Fill_field();
@@ -231,3 +231,4 @@ int main() {
     system("pause");
     return 0;
 }
+*/
