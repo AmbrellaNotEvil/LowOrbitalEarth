@@ -222,8 +222,11 @@ public:
 };
 
 
+//
+// Created by Sergei on 31.12.2025.
+//
 
-/*int main() {
+int main() {
 
     Low_Orbital_Earth_Value Test1;
     Test1.Fill_field();
@@ -231,4 +234,3 @@ public:
     system("pause");
     return 0;
 }
-*/
