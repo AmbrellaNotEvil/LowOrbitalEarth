@@ -10,18 +10,7 @@ on:
   
 jobs:
   build:
-    runs-on: ubuntu-latest
-    steps:
-      - name: test_step
-        run: |
-          echo "Hello from LOE 0.1 -${{env.Application_Name}}"
-          ls -la
-      - name: step2
-        uses: actions/checkout@v1
-      - name: step3
-        run: ls -la
-      - name: step4
-        run: main.exe
-       
-
-
+     runs-on: ubuntu-latest 
+     steps:
+       - name: Clone_Repository
+         uses: actions/checkout@v1
