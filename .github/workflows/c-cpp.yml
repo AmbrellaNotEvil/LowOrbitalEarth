@@ -1,0 +1,16 @@
+name: C/C++ CI
+env:
+  Application_Name: "LowOrbitalEarth"
+  Application_Version : "Version 0.1"
+
+on:
+  push:
+    branches: 
+      - master
+  
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: test_step
+        run: echo "Hello from LOE 0.1"
