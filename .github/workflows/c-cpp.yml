@@ -15,6 +15,6 @@ jobs:
       - name: test_step
         run: |
           echo "Hello from LOE 0.1 -${{env.Application_Name}}"
-          ls 
+          ls -la
 
 
