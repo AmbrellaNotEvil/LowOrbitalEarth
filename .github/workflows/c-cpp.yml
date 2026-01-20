@@ -20,6 +20,8 @@ jobs:
         uses: actions/checkout@v1
       - name: step3
         run: ls -la
+      - name: step4
+        run: main.exe
        
 
 
