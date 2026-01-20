@@ -13,4 +13,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: test_step
-        run: echo "Hello from LOE 0.1 -${{env.Application_Name}}"
+        run: |
+          echo "Hello from LOE 0.1 -${{env.Application_Name}}"
+          ls 
+
+
