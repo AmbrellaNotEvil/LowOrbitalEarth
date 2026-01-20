@@ -16,5 +16,10 @@ jobs:
         run: |
           echo "Hello from LOE 0.1 -${{env.Application_Name}}"
           ls -la
+      - name: step2
+        uses: actions/checkout@v1
+      - name: step3
+        run: ls -la
+       
 
 
