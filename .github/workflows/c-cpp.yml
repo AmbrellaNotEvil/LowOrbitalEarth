@@ -18,4 +18,5 @@ jobs:
          run: |
            ls -la
            gcc --version
+           python --version
          
