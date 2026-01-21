@@ -15,4 +15,7 @@ jobs:
        - name: Clone_Repository
          uses: actions/checkout@v1
        - name: Step2
-         run: ls -la
+         run: |
+           ls -la
+           gcc --version
+         
